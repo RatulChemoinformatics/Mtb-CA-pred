@@ -32,7 +32,7 @@ tab1,tab2,tab3,tab4,tab5,tab6,tab7 = st.tabs(['Main', 'About', 'What is Mycobact
 with tab1:
     st.title('Application Description')
     st.success(
-        " This module of [**Mtb-CA-pred**](https://github.com/RatulChemoinformatics/MAO-B has been built to predict bioactivity and identify potent inhibitors against Mycobacterium tuberculosis carbonic anhydrase using robust machine learning algorithms."
+        " This module of [**Mtb-CA-pred**](https://github.com/RatulChemoinformatics/Mtb-CA-pred) has been built to predict bioactivity and identify potent inhibitors against Mycobacterium tuberculosis carbonic anhydrase using robust machine learning algorithms."
     )
 
 # Define a sidebar for navigation
@@ -261,7 +261,7 @@ with tab4:
     In our work, we retrieved a Mycobacterium tubaerculosis carbonic anhydrase (Mtb-CA) dataset from the ChEMBL database. The data was curated and resulted in a non-redundant set of 267 Mtb-CA inhibitors, which can be divided into:
     - 147 active compounds
     - 46 inactive compounds
-    -.74 intermediate compounds
+    - 74 intermediate compounds
     ''')
 with tab5:
   st.header('Model performance')
