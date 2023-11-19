@@ -27,7 +27,7 @@ bioactivity_second_model = pickle.load(open('substructure.pkl', 'rb'))
 bioactivity_third_model = pickle.load(open('descriptors.pkl', 'rb'))
 
 # Define the tabs
-tab1,tab2,tab3,tab4,tab5,tab6,tab7 = st.tabs(['Main', 'About', 'What is Mycobacterium tuberculosis carbonic anhydrase (Mtb-CA)?', 'Dataset', 'Model performance', 'Python libraries', 'Citing us'])
+tab1,tab2,tab3,tab4,tab5,tab6,tab7,tab8 = st.tabs(['Main', 'About', 'What is Mycobacterium tuberculosis carbonic anhydrase (Mtb-CA)?', 'Dataset', 'Model performance', 'Python libraries', 'Citing us', 'Application Developers'])
 
 with tab1:
     st.title('Application Description')
@@ -277,3 +277,5 @@ with tab6:
   ''')
 with tab7:
   st.markdown('Aspatwar A, Kairys V, Rala S, Parikka M, Bozdag M, Carta F, Supuran CT, Parkkila S. Mycobacterium tuberculosis β-carbonic anhydrases: Novel targets for developing antituberculosis drugs. International Journal of Molecular Sciences. DOI: https://doi.org/10.3390/ijms20205153.')
+with tab8:
+  st.markdown('Ratul Bhowmik, Ajay Manaithiya, Sunil Kumar, Ranajit Nath, Dr. Ashok Aspatwar, Dr. Bijo Mathew. [***Infectious Disease Lab, Faculty of Medicine and Health Technology, Tampere University, Finland***] [***CADD LAB, Department of Pharmaceutical Chemistry, Amrita School of Pharmacy, Amrita Vishwa Vidyapeetham, Kochi, India***] ')
