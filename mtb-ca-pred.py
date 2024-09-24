@@ -278,4 +278,4 @@ with tab6:
 with tab7:
   st.markdown('Aspatwar A, Kairys V, Rala S, Parikka M, Bozdag M, Carta F, Supuran CT, Parkkila S. Mycobacterium tuberculosis β-carbonic anhydrases: Novel targets for developing antituberculosis drugs. International Journal of Molecular Sciences. DOI: https://doi.org/10.3390/ijms20205153.')
 with tab8:
-  st.markdown('Ratul Bhowmik, Ajay Manaithiya, Sunil Kumar, Ranajit Nath, Dr. Seppo Parkkila, Dr. Ashok Aspatwar, Dr. Bijo Mathew. [***Department of Anatomy, Carbonic Anhydrase Research Group, Faculty of Medicine and Health Technology, Tampere University, Finland***] [***CADD LAB, Department of Pharmaceutical Chemistry, Amrita School of Pharmacy, Amrita Vishwa Vidyapeetham, Kochi, India***] ')
+  st.markdown('Ratul Bhowmik, Ajay Manaithiya, Rajarshi Ray, Sunil Kumar, Ranajit Nath, Dr. Seppo Parkkila, Dr. Ashok Aspatwar, Dr. Bijo Mathew. [***Department of Anatomy, Carbonic Anhydrase Research Group, Faculty of Medicine and Health Technology, Tampere University, Finland***] [***CADD LAB, Department of Pharmaceutical Chemistry, Amrita School of Pharmacy, Amrita Vishwa Vidyapeetham, Kochi, India***] ')
